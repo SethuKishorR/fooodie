@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+    color: white;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.top-banner {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+a.icecream {
+    background-image: url(fooodieimages/ice.png);
+    background-size: cover;
+    border: none;
+    box-sizing: border-box;
+    border: white;
+    border-radius: 50%;
+}
+
+a.snax {
+    background-image: url(fooodieimages/Close\ up\ of\ Hamburgers\ .png);
+    background-size: cover;
+    border: none;
+    box-sizing: border-box;
+    border: white;
+    border-radius: 50%;
+}
+
+a.pizza {
+    background-image: url(fooodieimages/pizza.jpg);
+    background-size: cover;
+    border: none;
+    box-sizing: border-box;
+    border: white;
+    border-radius: 50%;
+}
+
+a.foods {
+    background-image: url(fooodieimages/meal.png);
+    background-size: cover;
+    border: none;
+    box-sizing: border-box;
+    border: white;
+    border-radius: 50%;
+}
+
+a.juice {
+    background-image: url(fooodieimages/drink.png);
+    background-size: cover;
+    border: none;
+    box-sizing: border-box;
+    border: white;
+    border-radius: 50%;
+}
+
+a.cake {
+    background-image: url(fooodieimages/black1.png);
+    background-size: cover;
+    border: none;
+    box-sizing: border-box;
+    border: white;
+    border-radius: 50%;
+}
+
+.floating-counter {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #ac173a;
+    ;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: grab;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: grab;
+    z-index: 9999;
+}

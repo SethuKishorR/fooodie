@@ -1,0 +1,20 @@
+html,
+body {
+    background-color: #ac173a;
+}
+
+.full-body {
+    background-color: #ac173a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.container {
+    border-radius: 15px;
+    background-color: white;
+    max-width: 600px;
+    padding: 50px 25px;
+    box-shadow: rgba(100, 100, 111, .2)0px 7px 29px 0px;
+}

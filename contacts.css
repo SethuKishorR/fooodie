@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.contactbody {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* hovering links */
+.hovering {
+    text-decoration: none;
+}
+
+.icon img {
+    transition: transform .2s;
+}
+
+.icon img:hover {
+    transform: scale(1.09);
+}
