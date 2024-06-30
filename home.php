@@ -2,12 +2,12 @@
 session_start();
 if (!isset($_SESSION["user"])) {
    header("Location: signin.php");
+   exit; // Ensure script stops execution after redirect
 }
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
-
 
 <head>
     <script src="./removeBanner.js"></script>
@@ -43,7 +43,7 @@ if (!isset($_SESSION["user"])) {
                     </li>
                     <li class="nav-item px-2">
                         <a class="nav-link js-scroll-trigger" data-bs-toggle="modal" data-bs-target="#filter"
-                            href="index.php">FILTER</a>
+                            href="#">FILTER</a>
                     </li>
                     <li class="nav-item px-2">
                         <a class="nav-link js-scroll-trigger" href="reviews.php">REVIEWS</a>
@@ -58,7 +58,7 @@ if (!isset($_SESSION["user"])) {
                         <a class="nav-link js-scroll-trigger" href="cart.php">MY CART</a>
                     </li>
                     <li class="nav-item px-2">
-                        <a class="nav-link js-scroll-trigger" href="logout.php">LOGOUT</a>
+                        <a class="nav-link js-scroll-trigger" href="#" onclick="logout()">LOGOUT</a>
                     </li>
                 </ul>
             </div>
@@ -175,6 +175,13 @@ if (!isset($_SESSION["user"])) {
     <script src="index.js"></script>
     <script src="navbar.js"></script>
 
+    <script>
+        function logout() {
+            if (confirm("Are you sure you want to logout?")) {
+                window.location.href = "logout.php";
+            }
+        }
+    </script>
 </body>
 
 </html>

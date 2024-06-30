@@ -9,7 +9,7 @@ function addToCart(id, name, price) {
   const existingItem = cartItems.find(item => item.id === id);
 
   if (existingItem) {
-    showAlert("Item already added to cart!", 3000);
+    showAlert("Item already added!", 3000);
   } else {
     cartItems.push({
       id: id,
@@ -18,7 +18,7 @@ function addToCart(id, name, price) {
       quantity: 1
     });
     localStorage.setItem("cartItems", JSON.stringify(cartItems));
-    showAlert("Item added to cart successfully!", 3000);
+    showAlert("Item added!", 3000);
     updateCartCounter(); // Update the cart counter after adding the item to the cart
   }
 }
@@ -64,7 +64,7 @@ $(document).ready(function () {
     const existingItem = cartItems.find(item => item.id === id);
 
     if (existingItem) {
-      alert("Item already added to cart!");
+      alert("Item already added!");
     } else {
       cartItems.push({
         id: id,
@@ -73,7 +73,7 @@ $(document).ready(function () {
         quantity: 1
       });
       localStorage.setItem("cartItems", JSON.stringify(cartItems));
-      // alert("Item added to cart successfully!");
+      alert("Item added!");
       // window.location.href = ".html"
     }
   }

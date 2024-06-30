@@ -64,8 +64,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
    </head>
 <body class="js-scroll-trigger"> 
 
-<div class="full-body" style="padding: 0px 5px 0px 5px;margin-top:px">
-        <div class="container col-md-5">
+<div class="full-body" style="padding: 0px 5px 0px 5px;">
+    <div class="container col-md-5">
 <?php
             if ($submissionSuccess) {
                 echo "<script>

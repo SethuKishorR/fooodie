@@ -109,7 +109,10 @@ if (!isset($_SESSION["user"])) {
                                     style="height: 200px;">
                                 <div class="card-body">
                                     <h4 class="card-title">Vijayan Temptation</h4>
-                                    <p class="card-text" style="color: gray;margin-left: 1px;">Burger</p>
+                                    <span class="btn"
+                                        style="margin-left: -14px;font-size: 15px;color: gray;border: none;">⭐⭐⭐⭐
+                                        70.5K
+                                        ratings</span> <br>
                                     <a href="#" style="text-decoration: none; color: gray; margin-top:20px;"><i
                                             class="fa-regular fa-clock"></i> 40-50min</a>
                                 </div>
@@ -123,8 +126,11 @@ if (!isset($_SESSION["user"])) {
                                     style="height: 200px;">
                                 <div class="card-body">
                                     <h4 class="card-title">Ice Square</h4>
-                                    <p class="card-text" style="color: gray;margin-left: 1px;">Ice Cream</p>
-                                    <a href="#" style="text-decoration: none; color: gray; margin-top:20px;"><i
+                                    <span class="btn"
+                                        style="margin-left: -14px;font-size: 15px;color: gray;border: none;">⭐⭐⭐⭐
+                                        42.8K
+                                        ratings</span> <br>
+                                        <a href="#" style="text-decoration: none; color: gray; margin-top:20px;"><i
                                             class="fa-regular fa-clock"></i> 20-25min</a>
                                 </div>
                             </div>
@@ -137,8 +143,11 @@ if (!isset($_SESSION["user"])) {
                                     style="height: 200px;">
                                 <div class="card-body">
                                     <h4 class="card-title">Cake Dilim</h4>
-                                    <p class="card-text" style="color: gray;margin-left: 1px;">Doughnut</p>
-                                    <a href="#" style="text-decoration: none; color: gray; margin-top:20px;"><i
+                                    <span class="btn"
+                                        style="margin-left: -14px;font-size: 15px;color: gray;border: none;">⭐⭐⭐⭐⭐
+                                        55.1K
+                                        ratings</span> <br>
+                                        <a href="#" style="text-decoration: none; color: gray; margin-top:20px;"><i
                                             class="fa-regular fa-clock"></i> 20-30min</a>
                                 </div>
                             </div>
@@ -151,8 +160,11 @@ if (!isset($_SESSION["user"])) {
                                     style="height: 200px;">
                                 <div class="card-body">
                                     <h4 class="card-title">7 Maadi</h4>
-                                    <p class="card-text" style="color: gray;margin-left: 1px;">Chicken</p>
-                                    <a href="#" style="text-decoration: none; color: gray; margin-top:20px;"><i
+                                    <span class="btn"
+                                        style="margin-left: -14px;font-size: 15px;color: gray;border: none;">⭐⭐⭐⭐
+                                        22.6K
+                                        ratings</span> <br>
+                                        <a href="#" style="text-decoration: none; color: gray; margin-top:20px;"><i
                                             class="fa-regular fa-clock"></i> 30-45min</a>
                                 </div>
                             </div>
@@ -168,7 +180,10 @@ if (!isset($_SESSION["user"])) {
                                     style="height: 200px;">
                                 <div class="card-body">
                                     <h4 class="card-title">Waffle House</h4>
-                                    <p class="card-text" style="color: gray;margin-left: 1px;">Meals NonVegetarian</p>
+                                   <span class="btn"
+                                        style="margin-left: -14px;font-size: 15px;color: gray;border: none;">⭐⭐⭐⭐
+                                        46.8K
+                                        ratings</span> <br>
                                     <a href="#" style="text-decoration: none; color: gray; margin-top:20px;"><i
                                             class="fa-regular fa-clock"></i> 45-60min</a>
                                 </div>
@@ -182,8 +197,11 @@ if (!isset($_SESSION["user"])) {
                                     style="height: 200px;">
                                 <div class="card-body">
                                     <h4 class="card-title">Riyas Kitchen</h4>
-                                    <p class="card-text" style="color: gray;margin-left: 1px;">Pasta</p>
-                                    <a href="#" style="text-decoration: none; color: gray; margin-top:20px;"><i
+                                    <span class="btn"
+                                        style="margin-left: -14px;font-size: 15px;color: gray;border: none;">⭐⭐⭐⭐
+                                        28.9K
+                                        ratings</span> <br>
+                                        <a href="#" style="text-decoration: none; color: gray; margin-top:20px;"><i
                                             class="fa-regular fa-clock"></i> 25-35min</a>
                                 </div>
                             </div>
@@ -196,7 +214,10 @@ if (!isset($_SESSION["user"])) {
                                     style="height: 200px;">
                                 <div class="card-body">
                                     <h4 class="card-title">Bhavan</h4>
-                                    <p class="card-text" style="color: gray;margin-left: 1px;">Meals Vegetarian</p>
+                                     <span class="btn"
+                                        style="margin-left: -14px;font-size: 15px;color: gray;border: none;">⭐⭐⭐⭐
+                                        34.0K
+                                        ratings</span> <br>
                                     <a href="#" style="text-decoration: none; color: gray; margin-top:20px;"><i
                                             class="fa-regular fa-clock"></i> 35-50min</a>
                                 </div>
@@ -210,7 +231,10 @@ if (!isset($_SESSION["user"])) {
                                     style="height: 200px;">
                                 <div class="card-body">
                                     <h4 class="card-title">Fruit Fiesta</h4>
-                                    <p class="card-text" style="color: gray;margin-left: 1px;">Fresh Fruits</p>
+                                    <span class="btn"
+                                        style="margin-left: -14px;font-size: 15px;color: gray;border: none;">⭐⭐⭐⭐
+                                        56.4K
+                                        ratings</span> <br>
                                     <a href="#" style="text-decoration: none; color: gray; margin-top:20px;"><i
                                             class="fa-regular fa-clock"></i> 25-30min</a>
                                 </div>

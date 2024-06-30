@@ -7,7 +7,7 @@ if (!isset($_SESSION["user"])) {
 ?>
 
 <!DOCTYPE html>
-<html lang="en" class="js-scroll-trigger">
+<html lang="en"  class="js-scroll-trigger">
 
 <head>
     <script src="./removeBanner.js"></script>

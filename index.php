@@ -39,7 +39,7 @@ if (isset($_SESSION["user"])) {
                         <a class="nav-link js-scroll-trigger" href="register.php">REGISTER</a>
                     </li>
                     <li class="nav-item px-2">
-                        <a class="nav-link js-scroll-trigger" href="signin.php">SIGNIN</a>
+                        <a class="nav-link js-scroll-trigger" href="signin.php">SIGN IN</a>
                     </li>
                 </ul>
             </div>

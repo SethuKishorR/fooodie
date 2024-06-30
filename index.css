@@ -79,8 +79,8 @@ a.cake {
 
 .floating-counter {
     position: fixed;
-    bottom: 40px;
-    right: 20px;
+    top: 85px;
+    right: 5px;
     width: 40px;
     height: 40px;
     background-color: #ac173a;

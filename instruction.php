@@ -83,7 +83,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     <textarea class="form-control" name="instruction" rows="4" placeholder="Type Here"  style="border-color:#036d7b;"></textarea>
                 </div>     
                 <div class="text-center" style="padding-top: 1px"> 
-                    <button type="submit" class="btn px-3" name="submit" style="font-size: 15px; margin: 13px; color: #ffffff;background-color:#036d7b;padding: 6px 2px; font-weight: 500; letter-spacing: 1.5px;border-radius:5px;font-size: 13px;">Submit</button>
+                    <button type="submit" class="btn btn-success px-3" name="submit" style="font-size: 15px; margin: 13px; color: #ffffff;background-color:#036d7b;padding: 6px 2px; font-weight: 500; letter-spacing: 1.5px;border-radius:5px;font-size: 13px;">Submit</button>
                 </div>
             </form>            
             </div>

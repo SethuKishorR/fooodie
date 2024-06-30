@@ -48,7 +48,7 @@ if (!isset($_SESSION["user"])) {
                 <div class="col-md-6 col-lg-4 my-2" style="padding:10px">
                     <div class="service-item shadow-sm p-4 bg-white" style="border-radius: 25px;">
                         <div class="icon my-3 text-danger fs-2">
-                            <img src="fooodieimages/corousel1.jpg" alt="review"
+                            <img src="fooodieimages/corousel1.jpg"
                                 style="height: 120px; width: 120px;border-radius: 50%;">
                         </div>
                         <h3 class="fs-5 py-1" style="color: #ac173a;font-weight: 700;letter-spacing: 2px;">EMILY DAVIS
@@ -63,7 +63,7 @@ if (!isset($_SESSION["user"])) {
                 <div class="col-md-6 col-lg-4 my-2" style="padding:10px">
                     <div class="service-item shadow-sm p-4 bg-white" style="border-radius: 25px;">
                         <div class="icon my-3 text-danger fs-2">
-                            <img src="fooodieimages/corousel2.jpg" alt="review"
+                            <img src="fooodieimages/corousel2.jpg"
                                 style="height: 120px; width: 120px;border-radius: 50%;">
                         </div>
                         <h3 class="fs-5 py-1" style="color: #ac173a;font-weight: 700;letter-spacing: 2px;">JOHNTHAN DOE
@@ -78,7 +78,7 @@ if (!isset($_SESSION["user"])) {
                 <div class="col-md-6 col-lg-4 my-2" style="padding:10px">
                     <div class="service-item shadow-sm p-4 bg-white" style="border-radius: 25px;">
                         <div class="icon my-3 text-danger fs-2">
-                            <img src="fooodieimages/corousel3.jpg" alt="review"
+                            <img src="fooodieimages/corousel3.jpg"
                                 style="height: 120px; width: 120px;border-radius: 50%;">
                         </div>
                         <h3 class="fs-5 py-1" style="color: #ac173a;font-weight: 700;letter-spacing: 2px;">DANIEL BROWN
